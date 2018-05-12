@@ -17,7 +17,6 @@ install:
     - mv reveal.js-master reveal.js
 
 script:
-    - cd demo_Jupyter-to-Slides/xarray_intro_acinn
     - jupyter nbconvert ACINN_workshop_xarray-slides.ipynb --to slides --reveal-prefix=reveal.js
 
 after_success: |
