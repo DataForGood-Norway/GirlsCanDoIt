@@ -11,6 +11,7 @@ python:
 # from Travis
 install:
     - pip install jupyter
+    - cd demo_Jupyter-to-Slides/xarray_intro_acinn    
     - wget https://github.com/hakimel/reveal.js/archive/master.zip
     - unzip master.zip
     - mv reveal.js-master reveal.js
