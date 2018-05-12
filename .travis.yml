@@ -21,12 +21,12 @@ script:
 
 after_success: |
     if [ -n "$GITHUB_API_KEY" ]; then
-    git checkout --orphan gh-pages
-    git rm -rf --cached .
-    cp ACINN_workshop_xarray-slides.slides.html index.html
-    git add -f --ignore-errors index.html figures img reveal.js
-    git -c user.name='travis' -c user.email='travis' commit -am init
-    git push --force --quiet https://$GITHUB_USER:$GITHUB_API_KEY@github.com/$TRAVIS_REPO_SLUG gh-pages
+      git checkout --orphan gh-pages
+      ## git rm -rf --cached .  ## This removes all files, too many
+      cp ACINN_workshop_xarray-slides.slides.html index.html
+      git add -f --ignore-errors *.html figures reveal.js
+      git -c user.name='Travis' -c user.email='Travis' commit -am init
+      git push --force --quiet https://$GITHUB_USER:$GITHUB_API_KEY@github.com/$TRAVIS_REPO_SLUG gh-pages
     fi
 
 
