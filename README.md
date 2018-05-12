@@ -1,4 +1,7 @@
 # Girls Can Do It
+
+[![Build Status](https://travis-ci.org/DataForGood-Norway/GirlsCanDoIt.svg?branch=master)](https://travis-ci.org/DataForGood-Norway/GirlsCanDoIt)
+
 Getting more girls and women to code, through workshops and mentoring.
 
 ### Girls Can Do: Machine Learning!
