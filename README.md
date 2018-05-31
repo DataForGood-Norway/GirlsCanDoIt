@@ -1,18 +1,31 @@
 # Girls Can Do It
 
-[![Build Status](https://travis-ci.org/DataForGood-Norway/GirlsCanDoIt.svg?branch=master)](https://travis-ci.org/DataForGood-Norway/GirlsCanDoIt)
+Getting more girls and women to code, through [workshops and mentoring](https://www.meetup.com/Girls-can-do-IT-Oslo/).
 
-Getting more girls and women to code, through workshops and mentoring.
 
-### Girls Can Do: Machine Learning!
+## Join The Project
 
-Material for the workshop.
-For now, to play the notebooks in _Slides_ as `reveal.js` (html presentation), we
-use [`RISE`](https://damianavila.github.io/RISE/customize.html)
-("Live" Reveal.js Jupyter/IPython Slideshow Extension) installed locally.
+**Meet the team**
 
-If you just want to test any notebook in your web browser:
+|                                                        | Name             | @github                                            | Role         | Working on       |
+|--------------------------------------------------------|------------------|----------------------------------------------------|--------------|------------------|
+| ![Emma](https://github.com/makingwaves27.png?size=64)  | Emma Scala       | [@makingwaves27](https://github.com/makingwaves27) | Mentor       | [Machine Learning](https://github.com/DataForGood-Norway/GirlsCanDoIt/tree/master/MachineLearning) |
+| ![Harjeet](https://github.com/tanyuu.png?size=64)      | Harjeet Harpal   | [@tanyuu](https://github.com/tanyuu)               | Mentor       | [Machine Learning](https://github.com/DataForGood-Norway/GirlsCanDoIt/tree/master/MachineLearning) |
 
-* find the url to your notebook on Github (e.g. [https://github.com/DataForGood-Norway/GirlsCanDoIt/blob/master/MachineLearning/Slides/Girls%20Can%20Do%20Machine%20Learning.ipynb](https://github.com/DataForGood-Norway/GirlsCanDoIt/blob/master/MachineLearning/Slides/Girls%20Can%20Do%20Machine%20Learning.ipynb))
-* replace the beginning `https://github.com/` with `https://colab.research.google.com/github/`
-* Open the resulting link: [https://colab.research.google.com/github/DataForGood-Norway/GirlsCanDoIt/blob/master/MachineLearning/Slides/Girls%20Can%20Do%20Machine%20Learning.ipynb](https://colab.research.google.com/github/DataForGood-Norway/GirlsCanDoIt/blob/master/MachineLearning/Slides/Girls%20Can%20Do%20Machine%20Learning.ipynb) will simply open your notebook in Google Drive using [CoLaboratory by Google](https://colab.research.google.com/).
+Join us on [Slack](http://dataforgood.no/contact-us/),
+
+then join our [channel](https://dataforgood-norway.slack.com/messages/CAKE8MW4E/team/UA31F62F5/)
+
+### We Need Your Help
+
+You will soon find all kind of [tasks here](https://github.com/DataForGood-Norway/GirlsCanDoIt/issues).
+
+
+
+## What Are We Doing?
+
+| Titles | Speakers | Date   | Slides/Material  |
+| ------ | -------- | ------ | ---------------- |
+| [Talk: Machine Learning workshop](https://www.meetup.com/Girls-can-do-IT-Oslo/events/250770822/) | [Harjeet Harpal](https://www.linkedin.com/in/harjeetharpal/) & [Emma Scala](https://www.linkedin.com/in/emma-scala-7b882472/) | 2018-06-04 | [Material for the workshop](https://github.com/DataForGood-Norway/GirlsCanDoIt/tree/master/MachineLearning) |
+
+

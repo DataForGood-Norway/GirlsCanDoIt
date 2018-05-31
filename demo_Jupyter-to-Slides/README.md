@@ -32,6 +32,8 @@ jupyter nbconvert  ACINN_workshop_xarray-slides.ipynb --to slides
 
 ## The "automated" way
 
+[![Build Status](https://travis-ci.org/DataForGood-Norway/GirlsCanDoIt.svg?branch=master)](https://travis-ci.org/DataForGood-Norway/GirlsCanDoIt)
+
 You can use thrid-party tools to tell it to convert your notebook into slides and to host the slides on internet every time you do modifications (`git push`) to your code.
 
 As an example you could use:
