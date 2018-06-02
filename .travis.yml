@@ -5,7 +5,7 @@ language: python
 cache: pip
 
 python:
-    - "2.7"
+    - "3.6"
 
 # install jupyter and get reveal.js as we will need it to build the website
 # from Travis
