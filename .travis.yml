@@ -24,7 +24,7 @@ after_success: |
       git checkout --orphan gh-pages
       ## git rm -rf --cached .  ## This removes all files, too many
       cp Girls\ Can\ Do\ Machine\ Learning.slides.html index.html
-      git add -f --ignore-errors *.html figures reveal.js
+      git add -f --ignore-errors *.html files reveal.js
       git -c user.name='Travis' -c user.email='Travis' commit -am init
       git push --force --quiet https://$GITHUB_USER:$GITHUB_API_KEY@github.com/$TRAVIS_REPO_SLUG gh-pages
     fi
